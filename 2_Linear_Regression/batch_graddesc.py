@@ -1,4 +1,9 @@
+from math import sqrt
+#third party imports
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 
 # Setting a random seed, feel free to change it and see different solutions.
 np.random.seed(42)
@@ -23,11 +28,18 @@ def MSEStep(X, y, W, b, learn_rate=0.005):
     W_new : predictor feature coefficients following gradient descent step
     b_new : intercept following gradient descent step
     """
+    # After the first batch, the expected coefficients were [0.123, 0.205].
+    # After the last batch, the expected coefficients were [0.448, 1.829].
 
     # Fill in code
+    y_hat = np.matmul(X,W)+b
+    error = y-y_hat
+
+    W_new =  W - learn_rate*np.matmul(error,X)
+    b_new = b - learn_rate*np.sum(error)
+
 
     return W_new, b_new
-
 
 # The parts of the script below will be run when you press the "Test Run"
 # button. The gradient descent step will be performed multiple times on
