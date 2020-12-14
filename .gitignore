@@ -9,3 +9,4 @@ OldVersionIntro
 /.idea/
 /OldVersionIntro/
 *.pdf
+/intro-to-ml-tensorflow/
