@@ -3,6 +3,9 @@ OldVersionIntro
 .ipynb_checkpoints
 /ML_venv/
 
+*.csv
+
+
 /naive_bayes/
 /OldVersionIntro/
 /OldVersionIntro/
