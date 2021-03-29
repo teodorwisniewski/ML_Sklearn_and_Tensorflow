@@ -10,12 +10,7 @@ Bike sharing systems are a means of renting bicycles where the process of obtain
 
 ## The choice of ML model for the API
 In order to analyze bike rental system, basic statistical tools and visualisations have been used. In order to properly use training dataset, initial Exploratory Data Analysis(EDA) was carried out.
-It allowed to learn more about the dataset and decide what kind of data transformations has to be applied in the features engineering process.
-The EDA can be found in the _scripts_ directory in the jupyter notebook file:
-
-
-The EDA phase was followed by the features engineering process in order to carry out explnatory analyses. 
-
+It allowed to learn more about the dataset and decide what kind of data transformations has to be applied in the features engineering process. The EDA phase was followed by the features engineering process in order to carry out explanatory analyses. It allowed to draw several useful insights about the dataset.
 
 ## Author
 Teodor Wisniewski
